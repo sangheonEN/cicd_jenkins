@@ -107,6 +107,9 @@ pipeline {
 3. Jenkins 파이프라인 실행
 4. Docker 이미지 빌드 → 컨테이너 기동 → 최신 버전 서비스 활성화
 5. 성공 시 Jenkins 콘솔에 로그 확인
+<img width="1122" height="611" alt="image" src="https://github.com/user-attachments/assets/5f520669-3984-4fd0-87ce-114e0cc2af65" />
+
+<img width="215" height="94" alt="image" src="https://github.com/user-attachments/assets/ee228417-1421-4626-a77f-2424a9b592d1" />
 
 ---
 
