@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: cicd_jenkins_web:latest
+    image: cicd_jenkins_web:test
     container_name: fastapi-app
     volumes:
       - ./app:/app
