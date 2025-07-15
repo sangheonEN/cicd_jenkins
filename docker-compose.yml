@@ -1,10 +1,13 @@
-version: "3"
+version: '3'
 
 services:
   web:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cicd_jenkins_web:latest
     container_name: fastapi-app
     volumes:
-      - .:/code
+      - ./app:/app
     ports:
       - "80:80"
